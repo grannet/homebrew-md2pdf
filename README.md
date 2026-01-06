@@ -21,7 +21,7 @@ brew install grannet-md2pdf
 Installs a Finder Quick Action that lets you convert Markdown files to PDF by right-clicking.
 
 ```bash
-brew install --cask md2pdf-quick-action
+brew install --cask grannet-md2pdf-quick-action
 ```
 
 ## Usage
@@ -52,14 +52,14 @@ brew update
 brew upgrade grannet-md2pdf
 
 # For Quick Action
-brew upgrade --cask md2pdf-quick-action
+brew upgrade --cask grannet-md2pdf-quick-action
 ```
 
 ## Uninstalling
 
 ```bash
 brew uninstall grannet-md2pdf
-brew uninstall --cask md2pdf-quick-action
+brew uninstall --cask grannet-md2pdf-quick-action
 brew untap grannet/md2pdf
 ```
 

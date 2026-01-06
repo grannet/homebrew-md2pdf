@@ -1,4 +1,4 @@
-cask "md2pdf-quick-action" do
+cask "grannet-md2pdf-quick-action" do
   version "1.0.0-c1abefb"
   sha256 "442754bc441d7fbaadf600d5a2fa420ce3e94e0feb8d65e056e2f63bf6019089"
 

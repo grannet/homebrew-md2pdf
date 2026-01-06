@@ -12,8 +12,10 @@ brew tap grannet/md2pdf
 
 ### Install CLI
 
+> **Note**: homebrew-core has a different package with the same name. Use the fully qualified name to install this version.
+
 ```bash
-brew install md2pdf
+brew install grannet/md2pdf/md2pdf
 ```
 
 ### Install Quick Action (optional)
@@ -21,7 +23,7 @@ brew install md2pdf
 Installs a Finder Quick Action that lets you convert Markdown files to PDF by right-clicking.
 
 ```bash
-brew install --cask md2pdf-quick-action
+brew install --cask grannet/md2pdf/md2pdf-quick-action
 ```
 
 ## Usage
@@ -49,17 +51,17 @@ md2pdf document.md --paper A4 --margin dense
 
 ```bash
 brew update
-brew upgrade md2pdf
+brew upgrade grannet/md2pdf/md2pdf
 
 # For Quick Action
-brew upgrade --cask md2pdf-quick-action
+brew upgrade --cask grannet/md2pdf/md2pdf-quick-action
 ```
 
 ## Uninstalling
 
 ```bash
-brew uninstall md2pdf
-brew uninstall --cask md2pdf-quick-action
+brew uninstall grannet/md2pdf/md2pdf
+brew uninstall --cask grannet/md2pdf/md2pdf-quick-action
 brew untap grannet/md2pdf
 ```
 

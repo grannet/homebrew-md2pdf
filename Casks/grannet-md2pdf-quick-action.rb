@@ -1,6 +1,6 @@
 cask "grannet-md2pdf-quick-action" do
-  version "1.0.0-bcaa95e"
-  sha256 "fe41eff491b09dc19c9f3aecb5c3d351e2099960f5a18d4d1219ad8316c879b9"
+  version "1.0.0"
+  sha256 "9194cc4aa6bd220f67da1327bf58d88303e36ce02336c33829be4a4b54bf8c61"
 
   url "https://github.com/grannet/md2pdf/releases/download/v#{version}/md2pdf-quick-action.workflow.zip"
   name "md2pdf Quick Action"

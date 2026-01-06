@@ -1,4 +1,4 @@
-class Md2pdf < Formula
+class GrannetMd2pdf < Formula
   desc "Convert Markdown to single-page PDF with Japanese font support"
   homepage "https://github.com/grannet/md2pdf"
   version "1.0.0-c1abefb"

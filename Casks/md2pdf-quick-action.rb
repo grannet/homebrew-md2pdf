@@ -7,7 +7,7 @@ cask "md2pdf-quick-action" do
   desc "Finder Quick Action to convert Markdown to PDF"
   homepage "https://github.com/grannet/md2pdf"
 
-  depends_on formula: "grannet/md2pdf/md2pdf"
+  depends_on formula: "grannet/md2pdf/grannet-md2pdf"
 
   artifact "md2pdf.workflow", target: "#{ENV["HOME"]}/Library/Services/md2pdf.workflow"
 

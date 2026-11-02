@@ -1,11 +1,11 @@
 class GrannetMd2pdf < Formula
   desc "Convert Markdown to single-page PDF with Japanese font support"
   homepage "https://github.com/grannet/md2pdf"
-  url "https://github.com/grannet/md2pdf/releases/download/v1.0.0-f15a32e/md2pdf-macos"
+  url "https://github.com/grannet/md2pdf/releases/download/v1.0.0-a9ee2cd/md2pdf-macos"
   # version is <package.json version>.<Release workflow run_number>.
   # The commit SHA in the release tag is not ordered, so brew could not tell which build is newer.
-  version "1.0.0.9"
-  sha256 "34091fdf0623b86bef908a084a68c03cc03fa6f01bd54f980aa2a4a274dbbc5c"
+  version "1.0.0.10"
+  sha256 "56e2d0047a1f185884418536526d60ea371a8908204c75fbb3ff1b11b15d2f9d"
   license "MIT"
 
   # Only an Apple Silicon (bun-darwin-arm64) binary is released

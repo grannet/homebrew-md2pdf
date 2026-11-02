@@ -1,8 +1,8 @@
 cask "grannet-md2pdf-quick-action" do
   # version is "<formula version>,<release tag without v>".
   # The formula version (<package.json version>.<run_number>) differs from the release tag (v<version>-<sha>).
-  version "1.0.0.9,1.0.0-f15a32e"
-  sha256 "9194cc4aa6bd220f67da1327bf58d88303e36ce02336c33829be4a4b54bf8c61"
+  version "1.0.0.10,1.0.0-a9ee2cd"
+  sha256 "7799235a93f00d19bf6576c185c68d356204e9e6f23356eeba656337ba473b59"
 
   url "https://github.com/grannet/md2pdf/releases/download/v#{version.csv.second}/md2pdf-quick-action.workflow.zip"
   name "md2pdf Quick Action"
